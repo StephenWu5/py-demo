@@ -16,8 +16,10 @@ headers = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'
 }
 # url = 'https://movie.douban.com/subject/25845392/collections?start=20'
-url = ['https://movie.douban.com/subject/25845392/comments?start={}&limit=20&status=P&sort=new_score'.format(i) for i in
-       range(0, 50, 20)]
+
+# url = ['https://movie.douban.com/subject/25845392/comments?start={}&limit=20&status=P&sort=new_score'.format(i) for i in range(0, 50, 20)] 长津湖
+
+url = ['https://movie.douban.com/subject/32579501/comments?start={}&limit=20&status=P&sort=new_score'.format(i) for i in range(0, 50, 20)]
 
 # 空list
 lis = []

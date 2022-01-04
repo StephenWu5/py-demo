@@ -19,7 +19,7 @@ def GetWordCloud():
     cut_text = " ".join(jieba.cut(f))
 
     wordcloud = WordCloud(
-        font_path="/home/wuxs/A我的数据盘/06project/py-demo/SIMYOU.TTF",
+        font_path="./SIMYOU.TTF",
         background_color="white",
         mask=background_image
     ).generate(cut_text)
